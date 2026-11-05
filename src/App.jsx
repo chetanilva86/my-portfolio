@@ -25,7 +25,7 @@ function App() {
       </div>
       <footer className="relative z-10 py-5 text-center text-(--foreground-secondary) border-t border-(--border-color)">
         <p className="text-md px-6 leading-relaxed">
-          © {new Date().getFullYear()} Chetan Ilve. Built with React,
+          © {new Date().getFullYear()} Chetan Ilva. Built with React,
           and JavaScript.
         </p>
       </footer>
