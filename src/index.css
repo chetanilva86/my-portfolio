@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&display=swap');
+@import "tailwindcss";
+
+:root {
+  --background: #0a0a0a;
+  --background-secondary: #1a1a1a;
+  --foreground: #e5e5e5;
+  --foreground-secondary: #a0a0a0;
+  --accent-blue: #3b82f6;
+  --border-color: #2a2a2a;
+  --card-bg: rgba(26, 26, 26, 0.4);
+  --font-heading: "Space Grotesk", sans-serif;
+}
+
+body {
+  font-family: var(--font-heading);
+  background: var(--background);
+  color: var(--foreground);
+  overflow-x: hidden;
+}
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 10px;
+}
+
+
+
+/* Custom scrollbar */
+::-webkit-scrollbar { width: 10px; }
+::-webkit-scrollbar-track { background: var(--background); }
+::-webkit-scrollbar-thumb { background: #3b82f6; border-radius: 5px; }
+::-webkit-scrollbar-thumb:hover { background: #60a5fa; }
+
+/* Glass blur container — add this class to any section wrapper */
+.glass-effect {
+  background: var(--card-bg);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid var(--border-color);
+  border-radius: 12px;
+}
+
+/* Gradient text — add to any heading you want colored */
+.gradient-text {
+  background: linear-gradient(135deg, #60a5fa, #3b82f6);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+
+.glass-effect {
+  background: var(--card-bg);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid var(--border-color);
+  border-radius: 12px;
+}
