@@ -22,7 +22,14 @@ const certificates = [
     preview: '/certificates/complete-html-knowledgegate-preview.png',
     file: '/certificates/complete-html-knowledgegate.pdf',
     verify: 'https://www.knowledgegate.ai/certificate/E844832D',
-  },
+  },{
+    title: 'web development',
+    issuer: 'ChaiCode',
+    detail: 'Certificate of Completion',
+    preview: '/certificates/web development_page-0001.jpg',
+    file: '/certificates/web development_page-0001.jpg',
+    verify: 'https://courses.chaicode.com/learn/certificate/11211684-250927',
+  }
 ]
 
 export default function Certificates() {
